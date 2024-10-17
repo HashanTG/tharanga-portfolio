@@ -1,15 +1,16 @@
 import HeroSection from "../components/hero";
 import NavBar from "../components/navbar";
-// import AboutMe from "../aboutus/aboutme";
-import SocialBar from "../components/mainsocial";
+
+import SocialBar from "../components/socialbar";
+import AboutMe from "../aboutus/aboutme";
 
 function Home() {
   return (
     <div>
       <NavBar />
       <HeroSection />
-      {/* <AboutMe/> */}
-      <SocialBar/>
+      <SocialBar />
+      <AboutMe/>
     </div>
   );
 }
