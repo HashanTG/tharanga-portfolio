@@ -2,7 +2,7 @@ import HeroSection from "../components/hero";
 import NavBar from "../components/navbar";
 
 import SocialBar from "../components/socialbar";
-import AboutMe from "../aboutus/aboutme";
+import AboutSection from "../components/aboutsection";
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
       <NavBar />
       <HeroSection />
       <SocialBar />
-      <AboutMe/>
+      <AboutSection/>
     </div>
   );
 }

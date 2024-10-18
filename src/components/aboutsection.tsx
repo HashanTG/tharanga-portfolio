@@ -1,0 +1,55 @@
+import React from "react";
+
+// Replace these imports with your actual image paths
+import leftimage from "../assets/leftimage.png";
+import rightimage from "../assets/rightimage.png";
+
+const AboutSection: React.FC = () => (
+  <section className="w-full min-h-screen flex items-center justify-center bg-black px-4 py-16">
+    <div className="max-w-5xl w-full flex flex-col md:flex-row items-center justify-center gap-8">
+      {/* Left Image */}
+      <div className="flex-1 flex justify-center">
+        <img
+          src={leftimage}
+          alt="Project work"
+          className="w-[300px] h-[370px] object-cover rounded-xl shadow-lg rotate-[-7deg] border border-white/10"
+        />
+      </div>
+
+      {/* Center Content */}
+      <div className="flex-1 flex flex-col items-center text-center">
+        <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          About <span className="text-[#D5F60C]">Me</span>
+        </h2>
+        <p className="text-gray-200 text-base md:text-lg mb-6 max-w-xl">
+          I'm Hashan Tharanga, a full-stack developer with a passion for
+          building complete digital solutions—clean interfaces, robust backends,
+          and scalable deployments.
+          <br />
+          <br />
+          I also work on IoT and embedded systems, blending hardware with smart
+          software. Beyond code, I specialize in graphic design and video
+          editing, combining creativity with technology.
+          <br />
+          <br />
+          In my free time, I enjoy playing the guitar and exploring new places
+          for inspiration.
+        </p>
+        <button className="mt-2 px-10 py-3 bg-[#A1B6F7] text-white font-semibold rounded-full shadow-md hover:bg-[#8ea5e3] transition">
+          Contact
+        </button>
+      </div>
+
+      {/* Right Image */}
+      <div className="flex-1 flex justify-center">
+        <img
+          src={rightimage}
+          alt="Robotics"
+          className="w-[300px] h-[370px] object-cover rounded-xl shadow-lg rotate-[7deg] border border-white/10"
+        />
+      </div>
+    </div>
+  </section>
+);
+
+export default AboutSection;

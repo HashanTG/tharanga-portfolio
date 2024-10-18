@@ -3,5 +3,7 @@ import element2 from './element2.png';
 import myself from './myself.png';
 import medium from './medium.png';
 import fiverr from './fiverr.png'
+import leftimage from './leftimage.png';
+import rightimage from './rightimage.png';
 
-export { element1, element2, myself, medium,fiverr };
+export { element1, element2, myself, medium,fiverr, leftimage, rightimage };
