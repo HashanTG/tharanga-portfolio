@@ -11,7 +11,7 @@ import {
 import { medium, fiverr } from "../assets/assets"; 
 
 const SocialBar: React.FC = () => (
-  <div className="w-full bg-black flex justify-center py-8 mt-[200px]">
+  <div className="w-full bg-black flex justify-center py-8 mt-[250px]">
     <div className="flex gap-10">
       <a
         href="https://www.linkedin.com/"

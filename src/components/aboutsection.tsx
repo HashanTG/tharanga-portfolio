@@ -5,22 +5,23 @@ import leftimage from "../assets/leftimage.png";
 import rightimage from "../assets/rightimage.png";
 
 const AboutSection: React.FC = () => (
-  <section className="w-full min-h-screen flex items-center justify-center bg-black px-4 py-16">
-    <div className="max-w-5xl w-full flex flex-col md:flex-row items-center justify-center gap-8">
+  <section className="w-full min-h-screen flex items-center justify-center bg-black px-4 py-16 mt-[50px]">
+    <div className=" w-full flex flex-col md:flex-row items-center justify-center gap-8">
       {/* Left Image */}
       <div className="flex-1 flex justify-center">
         <img
           src={leftimage}
           alt="Project work"
-          className="w-[300px] h-[370px] object-cover rounded-xl shadow-lg rotate-[-7deg] border border-white/10"
+          className="w-[720px] h-[640px] rounded-xl shadow-lg rotate-[0deg] ml-0"
         />
       </div>
 
       {/* Center Content */}
       <div className="flex-1 flex flex-col items-center text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+        {/* <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
           About <span className="text-[#D5F60C]">Me</span>
-        </h2>
+        </h2> */}
+                
         <p className="text-gray-200 text-base md:text-lg mb-6 max-w-xl">
           I'm Hashan Tharanga, a full-stack developer with a passion for
           building complete digital solutions—clean interfaces, robust backends,
@@ -45,7 +46,7 @@ const AboutSection: React.FC = () => (
         <img
           src={rightimage}
           alt="Robotics"
-          className="w-[300px] h-[370px] object-cover rounded-xl shadow-lg rotate-[7deg] border border-white/10"
+          className="w-[720px] h-[640px] rounded-xl shadow-lg rotate-[0deg] mr-0"
         />
       </div>
     </div>
