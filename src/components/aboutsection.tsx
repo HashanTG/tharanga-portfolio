@@ -4,6 +4,8 @@ import React from "react";
 import leftimage from "../assets/leftimage.png";
 import rightimage from "../assets/rightimage.png";
 
+import { Me} from "../assets/assets"; // Assuming you have an image for yourself
+
 const AboutSection: React.FC = () => (
   <section className="w-full min-h-screen flex items-center justify-center bg-black px-4 py-16 mt-[50px]">
     <div className=" w-full flex flex-col md:flex-row items-center justify-center gap-8">
@@ -12,17 +14,20 @@ const AboutSection: React.FC = () => (
         <img
           src={leftimage}
           alt="Project work"
-          className="w-[720px] h-[640px] rounded-xl shadow-lg rotate-[0deg] ml-0"
+          className="w-[500px] h-[640px] rounded-xl shadow-lg rotate-[0deg] ml-0"
         />
       </div>
 
       {/* Center Content */}
       <div className="flex-1 flex flex-col items-center text-center">
-        {/* <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-          About <span className="text-[#D5F60C]">Me</span>
-        </h2> */}
-                
-        <p className="text-gray-200 text-base md:text-lg mb-6 max-w-xl">
+        <div className="flex flex-row ">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 mr-[10px]">
+            About
+          </h2>
+          <img src={Me} alt="" className="w-[50px] h-[50px]"/>
+        </div>
+
+        <p className="text-gray-200 font-light mb-6 max-w-xl">
           I'm Hashan Tharanga, a full-stack developer with a passion for
           building complete digital solutions—clean interfaces, robust backends,
           and scalable deployments.
@@ -46,7 +51,7 @@ const AboutSection: React.FC = () => (
         <img
           src={rightimage}
           alt="Robotics"
-          className="w-[720px] h-[640px] rounded-xl shadow-lg rotate-[0deg] mr-0"
+          className="w-[500px] h-[640px] rounded-xl shadow-lg rotate-[0deg] mr-0"
         />
       </div>
     </div>
