@@ -14,7 +14,7 @@ const SocialBar: React.FC = () => (
   <div className="w-full bg-black flex justify-center py-8 mt-[250px]">
     <div className="flex gap-10">
       <a
-        href="https://www.linkedin.com/"
+        href="www.linkedin.com/in/hashan-tharanga-gamage-4a4269240"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="LinkedIn"
@@ -30,7 +30,7 @@ const SocialBar: React.FC = () => (
         className="text-white text-3xl"
       >
         {/* <FaMediumM /> */}
-        <img src={medium} alt="" className="w-[30px] h-[30px]"  />
+        <img src={medium} alt="" className="w-[30px] h-[30px]" />
       </a>
       <a
         href="https://github.com/"
