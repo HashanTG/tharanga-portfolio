@@ -23,7 +23,7 @@ const SocialBar: React.FC = () => (
         <FaLinkedinIn />
       </a>
       <a
-        href="https://medium.com/"
+        href="https://medium.com/@hashantharanga2001"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Medium"
