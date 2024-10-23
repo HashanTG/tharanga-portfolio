@@ -33,7 +33,7 @@ const SocialBar: React.FC = () => (
         <img src={medium} alt="" className="w-[30px] h-[30px]" />
       </a>
       <a
-        href="https://github.com/"
+        href="https://github.com/HashanTG"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="GitHub"
