@@ -42,7 +42,7 @@ const SocialBar: React.FC = () => (
         <FaGithub />
       </a>
       <a
-        href="https://stackoverflow.com/"
+        href="https://stackoverflow.com/users/22325274/hashan-tharanga"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Stack Overflow"
