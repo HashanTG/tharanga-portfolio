@@ -51,7 +51,7 @@ const SocialBar: React.FC = () => (
         <FaStackOverflow />
       </a>
       <a
-        href="https://www.behance.net/"
+        href="https://www.behance.net/hashantharanga2001"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Behance"
