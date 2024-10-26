@@ -60,7 +60,7 @@ const SocialBar: React.FC = () => (
         <FaBehance />
       </a>
       <a
-        href="https://facebook.com/"
+        href="https://www.fiverr.com/gamagehashan/buying?source=avatar_menu_profile"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Facebook"

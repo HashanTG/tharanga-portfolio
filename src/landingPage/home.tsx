@@ -3,6 +3,7 @@ import NavBar from "../components/navbar";
 
 import SocialBar from "../components/socialbar";
 import AboutSection from "../components/aboutsection";
+import Experience from "../components/experience";
 
 function Home() {
   return (
@@ -10,7 +11,8 @@ function Home() {
       <NavBar />
       <HeroSection />
       <SocialBar />
-      <AboutSection/>
+      <AboutSection />
+      <Experience/>
     </div>
   );
 }
