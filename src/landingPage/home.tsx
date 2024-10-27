@@ -5,6 +5,7 @@ import SocialBar from "../components/socialbar";
 import AboutSection from "../components/aboutsection";
 import Experience from "../components/experience";
 
+
 function Home() {
   return (
     <div>
@@ -12,7 +13,9 @@ function Home() {
       <HeroSection />
       <SocialBar />
       <AboutSection />
-      <Experience/>
+      <Experience />
+
+      
     </div>
   );
 }

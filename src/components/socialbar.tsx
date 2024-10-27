@@ -5,14 +5,53 @@ import {
   FaGithub,
   FaStackOverflow,
   FaBehance,
+  FaMedium,
+  
+  
 
 } from "react-icons/fa";
 
-import { medium, fiverr } from "../assets/assets"; 
+//  import {  fiverr } from "../assets/assets";
+
+import { FloatingDock } from "@/components/ui/floating-dock";
+
+
+const dockItems = [
+  {
+    title: "LinkedinIn",
+    icon: <FaLinkedinIn size={24} />,
+    href: "https://github.com/yourusername",
+  },
+  {
+    title: "Medium",
+    icon: <FaMedium size={24} />,
+    href: "https://linkedin.com/in/yourusername",
+  },
+  {
+    title: "Github",
+    icon: <FaGithub size={24} />,
+    href: "https://twitter.com/yourusername",
+  },
+  {
+    title: "StackOverflow",
+    icon: <FaStackOverflow size={24} />,
+    href: "https://twitter.com/yourusername",
+  },
+  {
+    title: "Behance",
+    icon: <FaBehance size={24} />,
+    href: "https://twitter.com/yourusername",
+  },
+  // {
+  //   title: "Behance",
+  //   icon:  { fiverr } ,
+  //   href: "https://twitter.com/yourusername",
+  // },
+];
 
 const SocialBar: React.FC = () => (
   <div className="w-full bg-black flex justify-center py-8 mt-[250px]">
-    <div className="flex gap-10">
+    {/* <div className="flex gap-10">
       <a
         href="www.linkedin.com/in/hashan-tharanga-gamage-4a4269240"
         target="_blank"
@@ -29,7 +68,7 @@ const SocialBar: React.FC = () => (
         aria-label="Medium"
         className="text-white text-3xl"
       >
-        {/* <FaMediumM /> */}
+        
         <img src={medium} alt="" className="w-[30px] h-[30px]" />
       </a>
       <a
@@ -68,7 +107,9 @@ const SocialBar: React.FC = () => (
       >
         <img src={fiverr} alt="" className="w-[25px] h-[30px]" />
       </a>
-    </div>
+    </div> */}
+
+    <FloatingDock items={dockItems} />
   </div>
 );
 
