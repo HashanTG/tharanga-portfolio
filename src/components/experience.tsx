@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {With } from "../assets/assets";
+import {With, experi } from "../assets/assets";
 // experi,
   function Experience() {
     return (
@@ -21,7 +21,7 @@ import {With } from "../assets/assets";
         <h5 className="text-white font-extralight mb-[60px]">
           solutions with clean design and functionality.
         </h5>
-        {/* <img src={experi} alt="" /> */}
+        <img src={experi} alt="" />
       </div>
     );
   };
