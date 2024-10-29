@@ -4,6 +4,7 @@ import NavBar from "../components/navbar";
 import SocialBar from "../components/socialbar";
 import AboutSection from "../components/aboutsection";
 import Experience from "../components/experience";
+import MarqueeBar from "../components/marqueebar";
 
 
 function Home() {
@@ -14,8 +15,7 @@ function Home() {
       <SocialBar />
       <AboutSection />
       <Experience />
-
-      
+      <MarqueeBar />
     </div>
   );
 }

@@ -10,8 +10,8 @@ const items = [
 
 export default function MarqueeBar() {
   return (
-    <div className="w-full bg-black py-4 flex justify-center items-center">
-      <div className="relative w-[90vw] max-w-7xl h-[80px] rounded-bl-2xl rounded-tr-2xl overflow-hidden bg-[#d5f60c] flex items-center">
+    <div className="w-full bg-black py-4 flex justify-center items-center mt-[100px]">
+      <div className="relative w-[1800px] max-w-16xl h-[80px] rounded-bl-2xl rounded-tr-2xl overflow-hidden bg-[#d5f60c] flex items-center">
         {/* White slanted bar */}
         <div
           className="absolute left-0 top-1/2 -translate-y-1/2 w-[120%] h-[56px] bg-white"
@@ -21,14 +21,10 @@ export default function MarqueeBar() {
           }}
         />
         {/* Marquee text */}
-        <div className="absolute left-0 top-1/2 -translate-y-1/2 w-full overflow-hidden">
-          <div className="flex whitespace-nowrap animate-marquee">
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 w-full overflow-hidden z-20">
+          <div className="marquee-animation flex">
             {[...items, ...items].map((item, i) => (
-              <span
-                key={i}
-                className="mx-8 text-3xl font-medium text-black"
-                style={{ display: "inline-block" }}
-              >
+              <span key={i} className="mx-8 text-3xl font-medium text-black">
                 {item}
                 {i !== [...items, ...items].length - 1 && (
                   <span className="mx-5 text-[#d5f60c] text-3xl font-bold align-middle">
