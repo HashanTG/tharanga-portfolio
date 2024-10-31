@@ -5,6 +5,7 @@ import SocialBar from "../components/socialbar";
 import AboutSection from "../components/aboutsection";
 import Experience from "../components/experience";
 import MarqueeBar from "../components/marqueebar";
+import Carosel from "@/components/carosel";
 
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
       <AboutSection />
       <Experience />
       <MarqueeBar />
+      <Carosel />
     </div>
   );
 }
