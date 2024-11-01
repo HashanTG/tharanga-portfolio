@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Carousel from "@/components/ui/carousel";
  // Adjust the import path as necessary
 const slides = [
@@ -22,8 +22,14 @@ const slides = [
     title: "App Design",
     button: "See Details",
     src: "/public/ddddd.JPG", // Use the imported image variable directly
+  },
+  {
+    title: "App Design",
+    button: "See Details",
+    src: "/public/eeeeee.jpg", // Use the imported image variable directly
     },
   
+
   // Add more slides as needed
 ];
 
