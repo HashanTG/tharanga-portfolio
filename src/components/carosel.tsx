@@ -27,8 +27,12 @@ const slides = [
     title: "App Design",
     button: "See Details",
     src: "/public/eeeeee.jpg", // Use the imported image variable directly
-    },
-  
+  },
+  {
+    title: "App Design",
+    button: "See Details",
+    src: "/public/fffffff.jpg", // Use the imported image variable directly
+  },
 
   // Add more slides as needed
 ];
