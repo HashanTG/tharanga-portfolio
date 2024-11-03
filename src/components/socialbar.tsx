@@ -20,7 +20,7 @@ const dockItems = [
   {
     title: "LinkedinIn",
     icon: <FaLinkedinIn size={24} />,
-    href: "https://github.com/yourusername",
+    href: "www.linkedin.com/in/hashan-tharanga-gamage-4a4269240",
   },
   {
     title: "Medium",

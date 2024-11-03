@@ -40,7 +40,7 @@ const slides = [
 
 function Carosel() {
   return (
-    <div>
+    <div className="mt-[200px]">
       <Carousel slides={slides} />
     </div>
   );
