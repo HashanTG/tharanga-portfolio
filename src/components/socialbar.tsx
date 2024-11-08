@@ -25,7 +25,7 @@ const dockItems = [
   {
     title: "Medium",
     icon: <FaMedium size={24} />,
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://medium.com/@hashantharanga2001",
   },
   {
     title: "Github",
