@@ -30,7 +30,7 @@ const dockItems = [
   {
     title: "Github",
     icon: <FaGithub size={24} />,
-    href: "https://twitter.com/yourusername",
+    href: "https://github.com/HashanTG",
   },
   {
     title: "StackOverflow",
