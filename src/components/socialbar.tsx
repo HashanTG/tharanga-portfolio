@@ -35,7 +35,7 @@ const dockItems = [
   {
     title: "StackOverflow",
     icon: <FaStackOverflow size={24} />,
-    href: "https://twitter.com/yourusername",
+    href: "https://stackoverflow.com/users/22325274/hashan-tharanga",
   },
   {
     title: "Behance",
