@@ -30,7 +30,7 @@ export default function MarqueeBar() {
         >
           <div className="marquee-animation flex">
             {[...items, ...items].map((item, i) => (
-              <span key={i} className="mx-8 text-3xl font-medium text-black">
+              <span key={i} className="mx-3 text-3xl font-medium text-black">
                 {item}
                 {i !== [...items, ...items].length - 1 && (
                   <span className="mx-5 text-[#d5f60c] text-3xl font-bold align-middle">
