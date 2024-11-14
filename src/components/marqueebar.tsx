@@ -11,7 +11,7 @@ const items = [
 export default function MarqueeBar() {
   return (
     <div className="w-full bg-black py-4 flex justify-center items-center mt-[100px]">
-      <div className="relative w-[1800px] max-w-16xl h-[100px] rounded-bl-2xl rounded-tr-2xl overflow-hidden bg-[#d5f60c] flex items-center">
+      <div className="relative w-[1800px] max-w-16xl h-[120px] rounded-bl-2xl rounded-tr-2xl overflow-hidden bg-[#d5f60c] flex items-center">
         {/* White slanted bar */}
         <div
           className="absolute left-0 top-1/2 -translate-y-1/2 w-[120%] h-[56px] bg-white"
