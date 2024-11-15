@@ -6,6 +6,7 @@ import AboutSection from "../components/aboutsection";
 import Experience from "../components/experience";
 import MarqueeBar from "../components/marqueebar";
 import Carosel from "@/components/carosel";
+import Project from "@/components/project";
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
       <AboutSection />
       <Experience />
       <MarqueeBar />
+      <Project/>
       <Carosel />
     </div>
   );
