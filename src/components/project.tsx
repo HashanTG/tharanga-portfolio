@@ -5,7 +5,21 @@ const content = [
   {
     title: "Section 1",
     description: "Description for section 1",
-    content: <div><img src="/public/project1.png" alt="" /></div>,
+    content: (
+      <div>
+        <img src="/public/project1.png" alt="" />
+      </div>
+    ),
+  },
+
+  {
+    title: "Section 1",
+    description: "Description for section 1",
+    content: (
+      <div>
+        <img src="/public/project1.png" alt="" />
+      </div>
+    ),
   },
   // Add more sections as needed
 ];
