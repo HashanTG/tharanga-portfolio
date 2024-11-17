@@ -1,6 +1,5 @@
 import { StickyScroll } from "./ui/sticky-scroll-reveal"; // Adjust import path
 
-// Your content data array
 const content = [
   {
     title: "Section 1",
@@ -17,11 +16,11 @@ const content = [
     description: "Description for section 1",
     content: (
       <div>
-        <img src="/public/project1.png" alt="" />
+        <img src="/public/project2.png" alt="" />
       </div>
     ),
   },
-  // Add more sections as needed
+  
 ];
 
 function Project() {
