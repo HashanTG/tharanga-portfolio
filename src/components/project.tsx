@@ -20,7 +20,15 @@ const content = [
       </div>
     ),
   },
-  
+  {
+    title: "Section 1",
+    description: "Description for section 1",
+    content: (
+      <div>
+        <img src="/public/project3.png" alt="" />
+      </div>
+    ),
+  },
 ];
 
 function Project() {
