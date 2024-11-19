@@ -2,7 +2,7 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal"; // Adjust import path
 
 const content = [
   {
-    title: "Section 1",
+    title: "RosaLover E-Commerce",
     description:
       "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audioinformation about each track. Create and save new playlists ofrecommended tracks based on your existing playlists and more.",
     content: (
@@ -28,7 +28,7 @@ const content = [
       "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audioinformation about each track. Create and save new playlists ofrecommended tracks based on your existing playlists and more.",
     content: (
       <div>
-            <img src="/public/project3.png" alt="" />
+        <img src="/public/project3.png" alt="" />
       </div>
     ),
   },
