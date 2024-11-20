@@ -13,7 +13,7 @@ const content = [
   },
 
   {
-    title: "Section 1",
+    title: "Bodimaklk ",
     description:
       "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audioinformation about each track. Create and save new playlists ofrecommended tracks based on your existing playlists and more.",
     content: (
