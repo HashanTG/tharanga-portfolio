@@ -37,9 +37,9 @@ const content = [
 function Project() {
     return (
       <div>
-        <div className="w-full bg-black mt-[100px]">
+        <div className="w-full mt-[100px]">
           {" "}
-          {/* Parent container with black background */}
+          
           <StickyScroll
             content={content}
             contentClassName="bg-black" // Optional: if you want content area black
