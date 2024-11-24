@@ -50,7 +50,15 @@
   scrollbar-width: none;     /* Firefox */
 }
 
+/* For Chrome, Safari, and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
 
+body {
+  overflow-x: hidden;
+  /* Prevents horizontal scrolling */
+}
 
 @custom-variant dark (&:is(.dark *));
 
