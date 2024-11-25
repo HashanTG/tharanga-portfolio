@@ -7,6 +7,7 @@ import Experience from "../components/experience";
 import MarqueeBar from "../components/marqueebar";
 import Carosel from "@/components/carosel";
 import Project from "@/components/project";
+import Flayers from "@/components/flayers";
 
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
       <MarqueeBar />
       <Project/>
       <Carosel />
+      <Flayers/>
     </div>
   );
 }
