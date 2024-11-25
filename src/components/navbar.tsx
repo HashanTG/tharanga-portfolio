@@ -4,9 +4,9 @@ import { HiMenu, HiX } from "react-icons/hi";
 const navItems = [
   "Home",
   "About",
-  "Service",
-  "Resume",
+  "Experience",
   "Project",
+  "Works",
   "Contact",
 ];
 

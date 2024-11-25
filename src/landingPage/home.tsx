@@ -23,11 +23,12 @@ function Home() {
       <Experience />
       <MarqueeBar />
       <Project />
-      <Carosel />
-      <Flayers />
       <Elect />
+      <Flayers />
+      <Carosel />
+
       <ContactForm />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
