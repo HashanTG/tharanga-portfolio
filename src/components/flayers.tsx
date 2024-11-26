@@ -27,15 +27,7 @@ function Flayers() {
           />
         </div>
 
-        <div className="py-20 bg-black">
-          <InfiniteMovingCards
-            items={imageUrls}
-            direction="right"
-            speed="normal"
-            pauseOnHover={true}
-            className="mx-auto"
-          />
-        </div>
+    
       </div>
     );
 }
