@@ -8,7 +8,7 @@ const imageUrls = [
   "/public/flayers/advsaf.png",
   "/public/flayers/eid mubarak.png",
   "/public/flayers/ess_agm_common.png",
-  "/public/flayers/final1223.png",
+  "/public/flayers/",
 
   // Add more image paths
 ];

@@ -8,6 +8,7 @@ import MarqueeBar from "../components/marqueebar";
 import Carosel from "@/components/carosel";
 import Project from "@/components/project";
 import Flayers from "@/components/flayers";
+import Elect from "@/components/elect";
 
 
 function Home() {
@@ -19,9 +20,10 @@ function Home() {
       <AboutSection />
       <Experience />
       <MarqueeBar />
-      <Project/>
+      <Project />
       <Carosel />
-      <Flayers/>
+      <Flayers />
+      <Elect/>
     </div>
   );
 }
