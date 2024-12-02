@@ -12,9 +12,17 @@ const images = [
   "/electpro/9.png",
 ];
 
+
+import {Project} from "../assets/assets";
 function Elect() {
   return (
-    <div className="min-h-screen bg-black flex items-center justify-center px-2 py-8">
+    <div className="min-h-screen bg-black flex flex-col items-center justify-center px-2 py-8">
+      <div className="flex flex-row mb-[30px]">
+        <h2 className="text-4xl md:text-5xl font-bold text-white mr-[10px]">
+          Electronics & IoT
+        </h2>
+        <img src={Project} alt="" className="w-[50px] h-[45px]" />
+      </div>
       <div className="grid grid-cols-3 md:grid-cols-4 gap-4 w-full max-w-5xl">
         {images.map((src, idx) => (
           <div

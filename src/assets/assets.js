@@ -8,5 +8,7 @@ import rightimage from './rightimage.png';
 import Me from './Me.png';
 import experi from './experi.png';
 import With from './With.png';
+import Project from './Project.png';
+import Design from './Design.png';
 
-export { element1, element2, myself, medium,fiverr, leftimage, rightimage, Me, experi,With };
+export { element1, element2, myself, medium,fiverr, leftimage, rightimage, Me, experi,With,Project, Design };

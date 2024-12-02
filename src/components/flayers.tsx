@@ -8,16 +8,25 @@ const imageUrls = [
   "/public/flayers/advsaf.png",
   "/public/flayers/eid mubarak.png",
   "/public/flayers/ess_agm_common.png",
-  "/public/flayers/",
+  "/public/flayers/final1223.png",
+  "/public/flayers/sdggdsg.png",
+  "/public/flayers/women.png",
 
   // Add more image paths
 ];
   
+import {Design} from "../assets/assets";
 
 function Flayers() {
     return (
       <div>
         <div className="py-20 bg-black">
+          <div className="flex flex-row mb-[30px] items-center justify-center">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mr-[10px]">
+              Graphic
+            </h2>
+            <img src={Design} alt="" className="w-[50px] h-[45px]" />
+          </div>
           <InfiniteMovingCards
             items={imageUrls}
             direction="left"
@@ -26,8 +35,6 @@ function Flayers() {
             className="mx-auto"
           />
         </div>
-
-    
       </div>
     );
 }
