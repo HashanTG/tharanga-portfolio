@@ -9,6 +9,8 @@ import Carosel from "@/components/carosel";
 import Project from "@/components/project";
 import Flayers from "@/components/flayers";
 import Elect from "@/components/elect";
+import ContactForm from "@/components/contact";
+import Footer from "@/components/footer";
 
 
 function Home() {
@@ -23,7 +25,9 @@ function Home() {
       <Project />
       <Carosel />
       <Flayers />
-      <Elect/>
+      <Elect />
+      <ContactForm />
+      <Footer/>
     </div>
   );
 }

@@ -12,8 +12,8 @@ const images = [
   "/electpro/9.png",
 ];
 
+import { Project } from "../assets/assets";
 
-import {Project} from "../assets/assets";
 function Elect() {
   return (
     <div className="min-h-screen bg-black flex flex-col items-center justify-center px-2 py-8">

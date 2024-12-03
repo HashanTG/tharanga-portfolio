@@ -7,8 +7,10 @@ import {
   FaDiscord,
   FaReddit,
 } from "react-icons/fa";
+import emailjs from "emailjs-com";
 
 export default function ContactForm() {
+
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   const handleChange = (
@@ -19,7 +21,26 @@ export default function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Place your email sending logic here (see below)
+
+    // Inside your handleSubmit function, replace the alert with:
+    emailjs
+      .send(
+        "service_h1szao8",
+        "template_gnxqa9b",
+        {
+          from_name: form.name,
+          from_email: form.email,
+          message: form.message,
+        },
+        "CGrPB5OhOnc4dvqxa"
+      )
+      .then(() => {
+        alert("Email sent!");
+      })
+      .catch((error: { text: string }) => {
+        alert("Failed to send email: " + error.text);
+      });
+
     alert("Implement email sending logic here!");
   };
 
@@ -77,6 +98,7 @@ export default function ContactForm() {
           </button>
         </div>
       </form>
+      
       <div className="mt-10 text-white text-center">
         <p className="mb-4">Or contact me with...</p>
         <div className="flex gap-6 justify-center text-2xl">

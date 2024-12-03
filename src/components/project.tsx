@@ -37,9 +37,14 @@ const content = [
 function Project() {
     return (
       <div>
+        <div className="flex flex-row  mb-[20px]">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mr-[10px]">
+            Experience
+          </h2>
+         <img src="/public/Project.png" alt="" />
+        </div>
         <div className="w-full mt-[100px]">
           {" "}
-          
           <StickyScroll
             content={content}
             contentClassName="bg-black" // Optional: if you want content area black
