@@ -36,14 +36,14 @@ const content = [
 
 function Project() {
     return (
-      <div>
-        <div className="flex flex-row  mb-[20px]">
+      <div className="mt-[100px]">
+        <div className="flex flex-row items-center justify-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mr-[10px]">
-            Experience
+            Software
           </h2>
-         <img src="/public/Project.png" alt="" />
+          <img src="/public/Project.png" alt="" />
         </div>
-        <div className="w-full mt-[100px]">
+        <div className="w-full mt-[50px]">
           {" "}
           <StickyScroll
             content={content}
