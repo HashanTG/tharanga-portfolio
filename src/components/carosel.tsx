@@ -41,11 +41,11 @@ const slides = [
 function Carosel() {
   return (
     <div className="mt-[100px]">
-      <div className="flex flex-row items-center justify-center">
+      <div className="flex flex-row items-center justify-center  mb-[50px]">
         <h2 className="text-4xl md:text-5xl font-bold text-white mr-[10px]">
           Mobile
         </h2>
-        <img src="/public/Project.png" alt="" />
+        <img src="/public/photography.png" alt="" />
       </div>
       <Carousel slides={slides} />
     </div>

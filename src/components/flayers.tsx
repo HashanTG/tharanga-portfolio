@@ -20,7 +20,7 @@ import {Design} from "../assets/assets";
 function Flayers() {
     return (
       <div>
-        <div className="py-20 bg-black">
+        <div className="py-20 bg-black mt-[100px]">
           <div className="flex flex-row mb-[30px] items-center justify-center">
             <h2 className="text-4xl md:text-5xl font-bold text-white mr-[10px]">
               Graphic

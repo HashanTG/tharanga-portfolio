@@ -9,6 +9,8 @@ import {
 } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
+
+
 export default function ContactForm() {
 
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -46,6 +48,12 @@ export default function ContactForm() {
 
   return (
     <div className="min-h-screen bg-black flex flex-col items-center justify-center px-4">
+      <div className="flex flex-row mb-[30px] items-center justify-center">
+        <h2 className="text-4xl md:text-5xl font-bold text-white mr-[10px]">
+          Send me a
+        </h2>
+        <img src="/public/message.png" alt="" className="w-[100px] h-[60px]" />
+      </div>
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-3xl space-y-6"
@@ -98,7 +106,7 @@ export default function ContactForm() {
           </button>
         </div>
       </form>
-      
+
       <div className="mt-10 text-white text-center">
         <p className="mb-4">Or contact me with...</p>
         <div className="flex gap-6 justify-center text-2xl">
