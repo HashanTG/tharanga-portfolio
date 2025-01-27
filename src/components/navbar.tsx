@@ -10,6 +10,13 @@ const navItems = [
   "Contact",
 ];
 
+const scrollToSection = (section: string) => {
+  const el = document.getElementById(section.toLowerCase());
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 const NavBar: React.FC = () => {
   const [active, setActive] = useState("Home");
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -21,7 +28,10 @@ const NavBar: React.FC = () => {
         {navItems.map((item) => (
           <button
             key={item}
-            onClick={() => setActive(item)}
+            onClick={() =>{
+              setActive(item);
+              scrollToSection(item);
+            }}
             className={`flex-1 text-center py-3 rounded-full font-medium text-white transition
               ${active === item
                 ? "bg-[#232326] font-bold shadow"

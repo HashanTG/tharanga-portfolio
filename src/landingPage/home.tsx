@@ -17,10 +17,16 @@ function Home() {
   return (
     <div>
       <NavBar />
-      <HeroSection />
+      <div id="home">
+        <HeroSection />
+      </div>
       <SocialBar />
-      <AboutSection />
-      <Experience />
+      <div id="about">
+        <AboutSection />
+      </div>
+      <div id="experience">
+        <Experience />
+      </div>
       <MarqueeBar />
       <Project />
       <Elect />
