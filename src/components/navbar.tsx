@@ -84,6 +84,7 @@ const NavBar: React.FC = () => {
               onClick={() => {
                 setActive(item);
                 setDrawerOpen(false);
+                scrollToSection(item);
               }}
               className={`w-full text-left px-4 py-3 rounded-full font-medium text-white transition
                 ${active === item
