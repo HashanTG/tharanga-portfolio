@@ -28,12 +28,18 @@ function Home() {
         <Experience />
       </div>
       <MarqueeBar />
-      <Project />
+      <div id="project">
+        <Project />
+      </div>
       <Elect />
-      <Flayers />
+      <div id="flayers">
+        <Flayers />
+      </div>
       <Carosel />
 
-      <ContactForm />
+      <div id="contact">
+        <ContactForm />
+      </div>
       <Footer />
     </div>
   );
