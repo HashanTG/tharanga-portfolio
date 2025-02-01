@@ -24,11 +24,7 @@ const HeroSection: React.FC = () => {
           Hello!
         </div>
 
-        <img
-          src={element1}
-          alt="element1"
-          className="ml-[3px] mb-[55px]"
-        />
+        <img src={element1} alt="element1" className="ml-[3px] mb-[55px]" />
       </div>
 
       <div className="absolute flex flex-col items-center mb-28">
@@ -36,11 +32,11 @@ const HeroSection: React.FC = () => {
           I&apos;m <span className="text-[#D5F60C]">&lt;Hashan/&gt;</span>
           ,<br />
         </h1>
-        <h1 className="text-white text-[50px]">
+        <h1 className="text-white text-[25px] md:text-[50px]">
           FullStack Developer | Designer
         </h1>
 
-        <div className="mr-210">
+        <div className="mr-95 md:mr-210">
           <img src={element2} alt="element2" />
         </div>
       </div>
