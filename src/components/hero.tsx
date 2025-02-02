@@ -41,7 +41,7 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
 
-      <div className="absolute  items-center mt-[260px]">
+      <div className="absolute  items-center mt-[40px] md:mt-[260px]">
         <img src={myself} alt="Hashan" />
 
         {/* Toggle Button Group */}
