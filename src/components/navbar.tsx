@@ -6,7 +6,7 @@ const navItems = [
   "About",
   "Experience",
   "Project",
-  "Works",
+  "Flayers",
   "Contact",
 ];
 

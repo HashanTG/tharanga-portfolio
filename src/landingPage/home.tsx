@@ -11,6 +11,7 @@ import Flayers from "@/components/flayers";
 import Elect from "@/components/elect";
 import ContactForm from "@/components/contact";
 import Footer from "@/components/footer";
+import BackToTop from "@/components/backtotop";
 
 
 function Home() {
@@ -41,6 +42,7 @@ function Home() {
         <ContactForm />
       </div>
       <Footer />
+      <BackToTop />
     </div>
   );
 }
