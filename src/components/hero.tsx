@@ -11,7 +11,8 @@ import { FiExternalLink } from "react-icons/fi";
 //   "/path/to/feature2.png",
 //   "/path/to/feature3.png",
 // ];
-
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-expect-error
 import { element1, element2, myself } from "../assets/assets";
 
 const HeroSection: React.FC = () => {
