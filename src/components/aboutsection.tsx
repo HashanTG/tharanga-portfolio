@@ -3,7 +3,8 @@ import React from "react";
 // Replace these imports with your actual image paths
 import leftimage from "../assets/leftimage.png";
 import rightimage from "../assets/rightimage.png";
-
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-expect-error
 import { Me} from "../assets/assets"; // Assuming you have an image for yourself
 
 const AboutSection: React.FC = () => (
