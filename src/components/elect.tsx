@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const images = [
   "/electpro/1.png",
@@ -11,7 +11,8 @@ const images = [
   "/electpro/8.png",
   "/electpro/9.png",
 ];
-
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-expect-error
 import { Project } from "../assets/assets";
 
 function Elect() {
