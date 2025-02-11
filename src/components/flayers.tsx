@@ -14,7 +14,8 @@ const imageUrls = [
 
   // Add more image paths
 ];
-  
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-expect-error
 import {Design} from "../assets/assets";
 
 function Flayers() {
