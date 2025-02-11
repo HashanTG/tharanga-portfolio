@@ -50,7 +50,7 @@ const dockItems = [
 ];
 
 const SocialBar: React.FC = () => (
-  <div className="w-full bg-black flex justify-center py-8 mt-[250px]">
+  <div className="w-full bg-black flex justify-center py-8 mt-[50px] md:mt-[250px]">
     {/* <div className="flex gap-10">
       <a
         href="www.linkedin.com/in/hashan-tharanga-gamage-4a4269240"
