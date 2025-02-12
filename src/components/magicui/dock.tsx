@@ -1,15 +1,17 @@
 "use client";
 
 import { cva, type VariantProps } from "class-variance-authority";
+// import { dockVariants } from "./dock-variants";
 import {
   motion,
-  MotionProps,
   MotionValue,
   useMotionValue,
   useSpring,
   useTransform,
 } from "motion/react";
-import React, { PropsWithChildren, useRef } from "react";
+import type { MotionProps } from "motion/react";
+import React, { useRef } from "react";
+import type { PropsWithChildren } from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -140,5 +142,5 @@ const DockIcon = ({
 };
 
 DockIcon.displayName = "DockIcon";
+export { Dock, DockIcon };
 
-export { Dock, DockIcon, dockVariants };
