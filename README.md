@@ -22,7 +22,7 @@ coming soon
 
 ## 📸 Preview
 
-
+![Portfolio Preview](/Screenshot 2025-05-23 194409.png)
 
 ## 📁 Project Structure
 
