@@ -11,6 +11,7 @@ import Flayers from "@/components/flayers";
 import Elect from "@/components/elect";
 import ContactForm from "@/components/contact";
 import Footer from "@/components/footer";
+import BackToTop from "@/components/backtotop";
 
 
 function Home() {
@@ -28,13 +29,20 @@ function Home() {
         <Experience />
       </div>
       <MarqueeBar />
-      <Project />
+      <div id="project">
+        <Project />
+      </div>
       <Elect />
-      <Flayers />
+      <div id="flayers">
+        <Flayers />
+      </div>
       <Carosel />
 
-      <ContactForm />
+      <div id="contact">
+        <ContactForm />
+      </div>
       <Footer />
+      <BackToTop />
     </div>
   );
 }

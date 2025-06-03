@@ -19,7 +19,7 @@ const HeroSection: React.FC = () => {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center bg-black ">
       {/* Decorative Hello badge */}
-      <div className="absolute top-[80px] flex items-center">
+      <div className="absolute ml-[25px] top-[20px] md:top-[80px] flex items-center justify-center">
         <div className="bg-[#232326] w-[105px] h-[45px] flex items-center justify-center text-5 font-light text-white px-4 py-1 rounded-full  shadow border border-white/20">
           Hello!
         </div>
@@ -28,20 +28,20 @@ const HeroSection: React.FC = () => {
       </div>
 
       <div className="absolute flex flex-col items-center mb-28">
-        <h1 className="text-[70px]  font-bold text-white text-center">
+        <h1 className="text-[40px] md:text-[70px] font-bold text-white text-center">
           I&apos;m <span className="text-[#D5F60C]">&lt;Hashan/&gt;</span>
           ,<br />
         </h1>
-        <h1 className="text-white text-[50px]">
+        <h1 className="text-white text-[25px] md:text-[50px]">
           FullStack Developer | Designer
         </h1>
 
-        <div className="mr-210">
+        <div className="mr-95 md:mr-210">
           <img src={element2} alt="element2" />
         </div>
       </div>
 
-      <div className="absolute  items-center mt-[260px]">
+      <div className="absolute  items-center mt-[40px] md:mt-[260px]">
         <img src={myself} alt="Hashan" />
 
         {/* Toggle Button Group */}
