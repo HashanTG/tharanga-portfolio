@@ -47,35 +47,36 @@ const HeroSection: React.FC = () => {
 
         {/* Toggle Button Group */}
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 mt-[130px] md:mt-[300px]">
-          <div className="flex items-center  w-[230px] md:w-[367px] h-[50px] md:h-[82px] rounded-full px-2 py-2 shadow-lg bg-white/20 border border-white/30 backdrop-blur-md">
+          <div className="flex items-center w-[230px] md:w-[450px] h-[50px] md:h-[82px] rounded-full px-2 py-2 shadow-lg bg-white/20 border border-white/30 backdrop-blur-md">
             {/* Download CV Button */}
             <button
               onClick={() => setActive("cv")}
-              className={`flex items-center w-[100px] md:w-[208px] h-[40px] md:h-[62px] gap-2 px-7 py-2 rounded-full transition-all duration-200
-              ${
-                active === "cv"
-                  ? "bg-[#A1B6F7] text-white shadow font-light"
-                  : "bg-transparent text-[#A1B6F7] font-medium"
-              }
-            `}
+              className={`flex items-center justify-center text-xs md:text-sm w-[100px] md:w-[208px] h-[40px] md:h-[62px] gap-2 px-7 py-2 rounded-full transition-all duration-200
+        ${
+          active === "cv"
+            ? "bg-[#A1B6F7] text-white shadow font-light"
+            : "bg-transparent text-[#A1B6F7] font-medium"
+        }
+      `}
             >
               Download CV
               <FiExternalLink
-                className={`ml-1 text-2xl md:text-sm ${
+                className={`ml-1 text-base md:text-lg ${
                   active === "cv" ? "text-white" : "text-[#A1B6F7]"
                 }`}
               />
             </button>
+
             {/* Hire Me Button */}
             <button
               onClick={() => setActive("hire")}
-              className={`ml-3 px-7 py-2 w-[100px] md:w-[208px] h-[40px] md:h-[62px] rounded-full transition-all duration-200
-              ${
-                active === "hire"
-                  ? "bg-[#A1B6F7] text-white shadow font-semibold"
-                  : "bg-transparent text-white font-medium"
-              }
-            `}
+              className={`ml-3 px-7 py-2 text-xs md:text-sm w-[100px] md:w-[208px] h-[40px] md:h-[62px] rounded-full transition-all duration-200
+        ${
+          active === "hire"
+            ? "bg-[#A1B6F7] text-white shadow font-semibold"
+            : "bg-transparent text-white font-medium"
+        }
+      `}
             >
               Hire me
             </button>
